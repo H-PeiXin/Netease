@@ -1,20 +1,18 @@
 package com.example.netease;
 
 import android.os.Bundle;
-import android.widget.FrameLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-import androidx.viewpager.widget.ViewPager;
 
-import com.example.netease.fragment.ClassifyFragment;
-import com.example.netease.fragment.HomeFragment;
-import com.example.netease.fragment.MyFragment;
-import com.example.netease.fragment.ShoppingFragment;
-import com.example.netease.fragment.SpecialFragment;
+import com.example.netease.view.fragment.ClassifyFragment;
+import com.example.netease.view.fragment.HomeFragment;
+import com.example.netease.view.fragment.MyFragment;
+import com.example.netease.view.fragment.ShoppingFragment;
+import com.example.netease.view.fragment.SpecialFragment;
 
 import java.util.ArrayList;
 

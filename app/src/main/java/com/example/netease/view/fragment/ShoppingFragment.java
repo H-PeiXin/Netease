@@ -1,4 +1,4 @@
-package com.example.netease.fragment;
+package com.example.netease.view.fragment;
 
 import android.os.Bundle;
 
