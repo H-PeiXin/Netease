@@ -1,6 +1,6 @@
 package com.example.netease.contract;
 
-import com.example.netease.bean.UserBean;
+import com.example.netease.bean.HomeData;
 import com.example.netease.utils.net.INetCallBack;
 
 public class MainContract {
@@ -14,6 +14,6 @@ public class MainContract {
     }
 
     public interface IMainView{
-        void getData(UserBean userBean);
+        void getData(HomeData userBean);
     }
 }

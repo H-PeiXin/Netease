@@ -1,7 +1,7 @@
 package com.example.netease.presenter;
 
 import com.example.netease.base.BasePresenter;
-import com.example.netease.bean.UserBean;
+import com.example.netease.bean.HomeData;
 import com.example.netease.contract.MainContract;
 import com.example.netease.model.MainModelImpl;
 import com.example.netease.utils.net.INetCallBack;
@@ -18,9 +18,9 @@ public class MainPresenterImpl extends BasePresenter implements MainContract.IMa
 
     @Override
     public void login() {
-        mainModel.getLoginData("", new INetCallBack<UserBean>() {
+        mainModel.getLoginData("index", new INetCallBack<HomeData>() {
             @Override
-            public void onSuccess(UserBean userBean) {
+            public void onSuccess(HomeData userBean) {
                 mainView.getData(userBean);
             }
 

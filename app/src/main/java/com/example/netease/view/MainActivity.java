@@ -1,20 +1,19 @@
-package com.example.netease;
+package com.example.netease.view;
 
 import android.os.Bundle;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import com.example.netease.R;
 import com.example.netease.fragment.ClassifyFragment;
 import com.example.netease.fragment.HomeFragment;
 import com.example.netease.fragment.MyFragment;
 import com.example.netease.fragment.ShoppingFragment;
 import com.example.netease.fragment.SpecialFragment;
 
-import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -33,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     RadioButton rbMe;
     @BindView(R.id.rg_navigation)
     RadioGroup rgNavigation;
-    private ArrayList<Fragment> fragments;
     private MyFragment myFragment;
     private ShoppingFragment shoppingFragment;
     private ClassifyFragment classifyFragment;
