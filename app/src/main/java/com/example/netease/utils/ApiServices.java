@@ -1,6 +1,4 @@
-package com.example.netease.utils.net;
-
-
+package com.example.netease.utils;
 
 import java.util.HashMap;
 
